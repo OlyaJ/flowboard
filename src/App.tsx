@@ -4,7 +4,7 @@ function App() {
   return (
     <main className="p-10">
       <h1 className="mb-3 text-3xl font-bold">Vocab Gym</h1>
-      <Button>Log in</Button>
+      <Button>Sign in</Button>
     </main>
   );
 }
