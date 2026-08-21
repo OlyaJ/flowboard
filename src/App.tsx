@@ -1,10 +1,9 @@
-import { Button } from './shared/ui/button';
+import AppHeader from './widgets/app-header/ui/AppHeader';
 
 function App() {
   return (
-    <main className="p-10">
-      <h1 className="mb-3 text-3xl font-bold">Vocab Gym</h1>
-      <Button>Log in</Button>
+    <main>
+      <AppHeader />
     </main>
   );
 }
